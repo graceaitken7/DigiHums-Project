@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ADD8E6; /* Light blue background */
+    color: #00008B; /* Dark blue font */
+}
+
+header, main, section {
+    padding: 20px;
+}
+
+header {
+    background-color: #B0C4DE; /* A slightly darker shade of light blue for the header */
+    color: #00008B;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+h1, h2 {
+    color: #00008B;
+}

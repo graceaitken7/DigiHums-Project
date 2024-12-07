@@ -15,7 +15,7 @@ Made with Google Colab, by Nuria Sánchez
 ---
 
 ### Rationale
-Word embedding analyses give distant reading a semantic and syntactic basis for text interpretation. Beyond dictionary definitions, word embeddings like [GloVe](https://nlp.stanford.edu/projects/glove/)(Global Vectors for Word Representation, Stanford University) and [Word2Vec](https://code.google.com/archive/p/word2vec/)(Google) give numerical representations of the similarities between words according to their presence in similar contexts. Based on trained vectors available for downloading, both tools measure the closeness between any given words in an English language corpus, although GloVe is a multilingual model and supported the Spanish corpus in our project as well.  
+Word embedding analyses give distant reading a semantic and syntactic basis for text interpretation. Beyond dictionary definitions, word embeddings like [GloVe](https://nlp.stanford.edu/projects/glove/) (Global Vectors for Word Representation, Stanford University) and [Word2Vec](https://code.google.com/archive/p/word2vec/) (Google) give numerical representations of the similarities between words according to their presence in similar contexts. Based on trained vectors available for downloading, both tools measure the closeness between any given words in an English language corpus, although GloVe is a multilingual model and supported the Spanish corpus in our project as well.  
 
 I decided to focus my analysis on word embeddings for two reasons. Firstly, because I could measure co-occurrences within our project’s corpora while simultaneously comparing it with other existing corpora, which could showcase to what extent these testimonies are different to the common knowledge about the Bracero Program. Secondly, because it sheds light on the substructures of each testimony, which might not be as easily perceived in a close reading. 
 
@@ -75,7 +75,7 @@ All these paths remain open to further analysis and research, particularly the S
 
 ### References
 
-Pennington, Jeffrey, “Glove: Global Vectors for Word Representation”. NLP Stanford, August 2014. https://nlp.stanford.edu/projects/glove/ 
-Rieping, Holly Anne, Audio Segmenting and Natural Language Processing in Oral History Archiving. MIT, graduate thesis, February 2022. https://dspace.mit.edu/handle/1721.1/143185 
-Smetanin, Sergey, “Google News and Leo Tolstoy: Visualizing Word2Vec Word Embeddings using t-SNE”. Medium, November 16th, 2018. https://towardsdatascience.com/google-news-and-leo-tolstoy-visualizing-word2vec-word-embeddings-with-t-sne-11558d8bd4d
-Suri, Manan, “A Dummy’s Guide to Word2Vec”. Medium, January 21st, 2022. https://medium.com/@manansuri/a-dummys-guide-to-word2vec-456444f3c673 
+Pennington, Jeffrey, “[Glove: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)”. NLP Stanford, August 2014. 
+Rieping, Holly Anne, *[Audio Segmenting and Natural Language Processing in Oral History Archiving]*(https://dspace.mit.edu/handle/1721.1/143185). MIT, graduate thesis, February 2022. 
+Smetanin, Sergey, “[Google News and Leo Tolstoy: Visualizing Word2Vec Word Embeddings using t-SNE](https://towardsdatascience.com/google-news-and-leo-tolstoy-visualizing-word2vec-word-embeddings-with-t-sne-11558d8bd4d)”. Medium, November 16th, 2018. 
+Suri, Manan, “[A Dummy’s Guide to Word2Vec](https://medium.com/@manansuri/a-dummys-guide-to-word2vec-456444f3c673)”. Medium, January 21st, 2022. 

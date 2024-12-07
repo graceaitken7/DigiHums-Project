@@ -76,6 +76,9 @@ All these paths remain open to further analysis and research, particularly the S
 ### References
 
 Pennington, Jeffrey, “[Glove: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)”. NLP Stanford, August 2014. 
+
 Rieping, Holly Anne, *[Audio Segmenting and Natural Language Processing in Oral History Archiving](https://dspace.mit.edu/handle/1721.1/143185)*. MIT, graduate thesis, February 2022. 
+
 Smetanin, Sergey, “[Google News and Leo Tolstoy: Visualizing Word2Vec Word Embeddings using t-SNE](https://towardsdatascience.com/google-news-and-leo-tolstoy-visualizing-word2vec-word-embeddings-with-t-sne-11558d8bd4d)”. Medium, November 16th, 2018. 
+
 Suri, Manan, “[A Dummy’s Guide to Word2Vec](https://medium.com/@manansuri/a-dummys-guide-to-word2vec-456444f3c673)”. Medium, January 21st, 2022. 

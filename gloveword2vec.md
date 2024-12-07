@@ -67,9 +67,15 @@ Figure 11: Word2Vec visualization of 'worker' in corpus Gov.![Visualization Word
 
 ### Interpretation
 
+GloVe allowed me to pinpoint the main nodes of conversation in each corpus, called clusters in the field of word embeddings. In one hand, BHA orbits around the topic of family (‘father’, ‘mother’, ‘dad’, ‘family’), geography (‘Mexico’, ‘California’, ‘Texas’, ‘camps’), labor (‘work’, ‘years’, ‘time’), and sustenance (‘money’, ‘food’). The topics reappear in the SW corpus, but not arranged in the same way; for instance, ‘time’, ‘work’ and ‘money’ belong to the same category, and ‘field’ is closer to ‘ranch’, ‘town’, and ‘family’, and ‘food’ no longer appears similar to ‘money’. In the other hand, the Gov corpus yielded the topics of political figures (‘ambassador’, ‘president’, ‘embassy’, ‘secretary’), international politics (‘agreement’, ‘relationships’, ‘matter’, ‘United States’, ‘Mexico’, ‘war’), government (‘commision’, ‘government’, ‘department’, ‘state’), and work (‘manpower’, ‘agricultural’, ‘workers’). 
+When ran on its own, that is, without a biased input, Word2Vec yielded interesting constellations that showcased differences, for example, between ‘joy’ and ‘sad’, which is a cluster not relevant enough for the GloVe model; however, after doing research about Word2Vec’s accuracy, I decided to only interpret the analysis I made with the words obtained after the GloVe analysis and interpretation, since it would also give me the opportunity to compare the 3 corpora amongst each other. For example, ‘Mexico’ is similar to ‘work’ in the Gov corpus, whereas it is closer to ‘oranges’, ‘family’ and ‘lives’ in BHA. While this might sound as something evident, other discoveries were found out through the process: when I analysed ‘agricultural’ in Gov, a word adjacent to ‘work’, the word ‘immigration’ appeared, although the program was not conceived as such. As a matter of fact, for the Gov corpus, ‘work’ equals ‘documented’ and ‘solution’, yet upon close reading of the BHA testimonies, many of the bracero relatives mention all the hardships they overcame to either become legal residents or to prove they gained such right. Symptomatically, the BHA second party testimonies consider the workers as ‘able’ people to carry out the job with machines like ‘tractors’, since many former employers and their families mostly remember that from the braceros they hired, but did not socialize further with them. 
+All these paths remain open to further analysis and research, particularly the Spanish language analysis of the SW corpus, and to complement the Word2Vec analysis since it does not measure re-occurence nor frequency.
+
 ---
 
 ### References
 
-
-
+Pennington, Jeffrey, “Glove: Global Vectors for Word Representation”. NLP Stanford, August 2014. https://nlp.stanford.edu/projects/glove/ 
+Rieping, Holly Anne, Audio Segmenting and Natural Language Processing in Oral History Archiving. MIT, graduate thesis, February 2022. https://dspace.mit.edu/handle/1721.1/143185 
+Smetanin, Sergey, “Google News and Leo Tolstoy: Visualizing Word2Vec Word Embeddings using t-SNE”. Medium, November 16th, 2018. https://towardsdatascience.com/google-news-and-leo-tolstoy-visualizing-word2vec-word-embeddings-with-t-sne-11558d8bd4d
+Suri, Manan, “A Dummy’s Guide to Word2Vec”. Medium, January 21st, 2022. https://medium.com/@manansuri/a-dummys-guide-to-word2vec-456444f3c673 

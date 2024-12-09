@@ -54,8 +54,7 @@ The major limitation of the above sentiment analysis is that it categorizes the 
 
 Next, I wanted to explore how words relate to the keyword "bracero" and visualize a network displaying these connections. Key tools used in this process were libraries NetworkX and Matplotlib. My window size was 5, defining connection to “bracero” as appearing within 5 words of distance. Although the script incorporated Nltk library’s function of removing stopwords, words such as “y,”  “que,” “este,” etc. still remained, which is the limitation of current NLP libraries. The result below puts the keyword “bracero” in the center, and the more frequent a word appears in the context of “bracero” the closer it is located toward the center of the graph. The numbers on the lines indicate the number of collocations, the number being higher meaning more frequent collocation.<br>
 
-![Network of Collocates](path/to/network-collocates-image.png)  
-*Placeholder: Replace with the actual network visualization image.*
+![Network of Collocates](Bracero_Network_Analysis_Ji.png)  
 
 ### Network of Collocates
 

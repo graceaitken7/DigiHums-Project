@@ -60,7 +60,5 @@ Next, I wanted to explore how words relate to the keyword "bracero" and visualiz
   Then, I did an additional analysis examining the relationships between the collocates to uncover central themes in the text. The script first identifies the 50 most frequent collocates of "bracero," and then it checks if any of these 50 words are closely put together (my window size was 5 words before and 5 words after). If, as an example, "trabajar" and "bien" show up together so-and-so times in different parts of the text, it's recorded as a connection between these two words with a strength of so-and-so number. The strength, or in other words, “weight” is indicated as numbers on the edges/connecting lines of the graph visualization. If a word appears near the center of the graph, it generally indicates that the word is closely connected to many other words in the 50-collocates list. An interesting observation from the results is that positive words such as “bien” and “bueno” are located towards the center of the network. Since these words are connected to many other words, there is a high probability that this word represents a key theme or bridging concept in the text. “Bien” and “Bueno” being located towards the center aligns with the sentiment analysis results that analyzed the corpus as having an overall positive sentiment. 
   
 
-![Collocates Relationship Network](path/to/collocates-relationship-image.png)  
-*Placeholder: Replace with the actual collocates relationship network image.*
+![Collocates Relationship Network](Network_of_Collocates_of_Bracero_Ji.png)  
 
----

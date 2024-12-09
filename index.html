@@ -150,7 +150,7 @@ Selected ‘government’ and ‘agricultural’ for Gov. Ran Word2Vec in Colab 
                 
                 <p>Next, I wanted to explore how words relate to the keyword "bracero" and visualize a network displaying these connections. Key tools used in this process were libraries NetworkX and Matplotlib. My window size was 5, defining connection to “bracero” as appearing within 5 words of distance. Although the script incorporated Nltk library’s function of removing stopwords, words such as “y,”  “que,” “este,” etc. still remained, which is the limitation of current NLP libraries. The result below puts the keyword “bracero” in the center, and the more frequent a word appears in the context of “bracero” the closer it is located toward the center of the graph. The numbers on the lines indicate the number of collocations, the number being higher meaning more frequent collocation.</p>
 
-                <td><img src="images/bracero-network-analysis" width="800"></td>
+                <td><img src="images/Bracero-Network-Analysis.png" width="800"></td>
 
             <h3>Network of Collocates </h3>
             
@@ -158,7 +158,7 @@ Selected ‘government’ and ‘agricultural’ for Gov. Ran Word2Vec in Colab 
             <p>Then, I did an additional analysis examining the relationships between the collocates to uncover central themes in the text. The script first identifies the 50 most frequent collocates of "bracero," and then it checks if any of these 50 words are closely put together (my window size was 5 words before and 5 words after). If, as an example, "trabajar" and "bien" show up together so-and-so times in different parts of the text, it's recorded as a connection between these two words with a strength of so-and-so number. The strength, or in other words, “weight” is indicated as numbers on the edges/connecting lines of the graph visualization. If a word appears near the center of the graph, it generally indicates that the word is closely connected to many other words in the 50-collocates list. An interesting observation from the results is that positive words such as “bien” and “bueno” are located towards the center of the network. Since these words are connected to many other words, there is a high probability that this word represents a key theme or bridging concept in the text. “Bien” and “Bueno” being located towards the center aligns with the sentiment analysis results that analyzed the corpus as having an overall positive sentiment. 
             </p>
 
-            <td><img src="images/network-of-collocates-of-bracero" width="800"></td>
+            <td><img src="images/Collocates-Bracero.png" width="800"></td>
 
 
 

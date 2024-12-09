@@ -13,7 +13,7 @@
 
 Three libraries were used to cross-check the results:
 
-![Sentiment Analysis Results](Sentiment Analysis Results for the Interviews_Ji.png)
+![Sentiment Analysis Results](sentiment_analysis_results.png)
 
 #### 1. VaderSentiment
 - **Positive:** 0.106  

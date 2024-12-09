@@ -13,6 +13,8 @@
 
 Three libraries were used to cross-check the results:
 
+![Sentiment Analysis Results](Sentiment Analysis Results for the Interviews_Ji.png)
+
 #### 1. VaderSentiment
 - **Positive:** 0.106  
   This indicates that approximately 10.6% of the text consists of positive emotions or words.
